@@ -1,0 +1,16 @@
+{
+   "name": "FreeWiFi-CMCCLoginHelper",
+   "description": "A Chrome Extension to help login FreeWiFi-CMCC easily.",
+   "permissions": [ "tabs" ],
+   "content_scripts":[
+	{
+		"matches":["http://221.179.9.21/*",
+		"http://221.176.66.85:81/*"
+			  ],
+		"js":["test.js"]
+	}
+   ],
+   "version": "0.1",
+   "manifest_version": 2,
+   "homepage_url": "https://github.com/F-Sidney/FreeWiFi-CMCCLoginHelper"
+}
